@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wilmax</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="top_fluid_top">
+            <!--<span class="location"><a href="#">Москва</a></span>
+             <span class="top_quick_links">
+                <ul class="text_links">
+                    <li><a href="#">Продавцы</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Информация</a></li>
+                </ul>
+            </span> 
+            <div class="lang_swap">Русский</div>-->
+        </div>
+        <div class="header">
+            <div class="header_menu">
+                <div class="main-menu_button">
+                    <div class="line"></div>
+                </div>
+                <div class="logo">
+                    <img src="images/Wilmax_logo.svg" alt="">
+                </div>
+                <div class="search_input">
+                    Искать товары...
+                    <img src="images/magnifying-glass-solid.svg" alt="svg" class="search_icon">
+                </div>
+                <div class="top-buttons">
+                    <div class="top-buttons_icons"><img src="images/heart-regular.svg" alt="svg"></div>
+                    <div class="top-buttons_icons"><img src="images/circle-user-regular.svg" alt="svg"></div>
+                    <div class="top-buttons_icons">
+                        <img src="images/cart-shopping-solid.svg" alt="svg">
+                        <span class="shopping-counter">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+            <!-- <a href=""><img src="images/00_Monolith.jpg" alt=""></a> -->
+            <div class="content_text-title">
+                <span class="box1">
+                    <h1>снижение цен в честь</h1>
+                    <h1>пополнения коллекции!</h1>
+                </span>
+            </div>
+            <div class="content_text-subtitle">
+                <span class="box2">
+                    <h3>скидка 25% на все коллекции</h3>
+                </span>
+            </div>
+        </div>
+        <!-- <div class="slider">
+            <a href="" class="product_class"></a>
+            <a href="" class="product_class"></a>
+            <a href="" class="product_class"></a>
+            <a href="" class="product_class"></a>
+            <a href="" class="product_class"></a>
+            <a href="" class="product_class"></a>
+            <a href="" class="product_class"></a>
+        </div> -->
+        <div class="row-fluid">
+            <div class="new-collection_conteiner">
+                <div class="new-collection_title">Новая коллекция Graphics уже в наличии!</div>
+                <div class="new-collection_text">
+                    <p class="new-collection_text-main">Друзья, рады представить вашему вниманию новую коллекцию
+                        фарфоровой посуды, украшенную стильными графическими элементами, в которую вошли следующие
+                        дизайны:</p>
+                    <p class="new-collection_text-element">SILVER MOON - линейка, созданная, чтобы прием пищи не был
+                        обыденным, a переносил бы едока на Луну!</p>
+                    <p class="new-collection_text-middle">VINTAGE MOSAIC - орнамент, вдохновленный традиционным
+                        португальским искусством азулежу. Прекрасно подойдет ценителям винтажного стиля.</p>
+                    <p class="new-collection_text-element">VANILLA RAF - текстура, построенная на игре контрастов,
+                        выполненная в крафтовом стиле.</p>
+                    <p class="new-collection_text-last">OLIVE GREEN - узор содержит изображения оливковых ветвей и
+                        выполнен в пастельной палитре. Изделия c таким оформлением хорошо подходят для средиземноморской
+                        кухни.</p>
+                    <p class="new-collection_text-element">CORAL BLUE - идеальная посуда для организации морских
+                        сервировок. Навевает приятные воспоминание o лете!</p>
+                </div>
+                <div class="new-collection_button"></div>
+            </div>
+            <div class="swiper mySwiper">
+                <swiper-container class="slider swiper-wrapper">
+                    <div class="slider_element swiper-slide"><img src="images/Silver_Moon_jpg.jpg" alt=""
+                            style="height: 480px; width: 670px;"></div>
+                    <div class="slider_element swiper-slide"><img src="images/Coral_Blue_jpg.jpg" alt=""
+                            style="height: 480px; width: 670px;"></div>
+                    <div class="slider_element swiper-slide"><img src="images/Vintage_Mosaic_jpg.jpg" alt=""
+                            style="height: 480px; width: 670px;"></div>
+                    <div class="slider_element swiper-slide"><img src="images/Vanilla_Raf_jpg.jpg" alt=""
+                            style="height: 480px; width: 670px;"></div>
+                    <div class="slider_element swiper-slide"><img src="images/Olive_Green_jpg.jpg" alt=""
+                            style="height: 480px; width: 670px;"></div>
+                </swiper-container>
+                <div class="swiper-pagination"></div>
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                            delay: 4000,
+                            disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: ".swiper-pagination",
+                            clickable: true,
+                        },
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+</script>
+
+</html>

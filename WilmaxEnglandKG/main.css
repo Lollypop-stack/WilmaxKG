@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 1500px;
+}
+
+
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    width: 1400px;
+    box-sizing: border-box;
+    padding: 20px;
+    zoom: 130%;
+}
+
+.main-menu_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    flex-direction: row;
+    position: relative;
+}
+
+.header>.header_menu {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.line {
+    height: 2px;
+    width: 27px;
+    top: 50%;
+    background-color: #333;
+}
+
+.line::before,
+.line::after {
+    content: '';
+    height: 2px;
+    width: 27px;
+    background-color: #333;
+    position: absolute;
+}
+
+.line::before {
+    margin-top: -15%;
+}
+
+.line::after {
+    margin-top: 15%;
+}
+
+.logo {
+    max-width: 110px;
+    padding-top: 0.2%;
+    width: 12%;
+    /* zoom: 110%; */
+}
+
+.search_input {
+    width: 680px;
+    height: 44px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    color: #333;
+    border-radius: 6px;
+    padding: 0 20px 0 20px;
+    line-height: 1;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.search_icon {
+    width: 15px;
+}
+
+.top-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 0 15px;
+}
+
+.top-buttons_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    fill: #333;
+}
+
+.shopping-counter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 10px;
+    background-color: #242424;
+    border-radius: 25px;
+    padding: 1px;
+    width: 15px;
+    height: 15px;
+    max-width: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* content */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 650px;
+    background-image: url('images/00_Monolith.jpg');
+    background-size: cover;
+}
+
+.content_text-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    line-height: 1%;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.content_text-subtitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    line-height: 1%;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* body-container */
+.row-fluid {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    padding-left: 0;
+    padding-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+.new-collection_conteiner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.new-collection_title {
+    font-size: 25px;
+    color: #cc9900;
+    font-weight: bold;
+}
+
+.new-collection_text {
+    line-height: 1.5em;
+    width: 100%;
+    height: 600px;
+}
+
+.new-collection_text-main {
+    width: 800px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 30px
+}
+
+.new-collection_text-middle {
+    width: 800px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.new-collection_text-element {
+    width: 800px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.new-collection_text-last {
+    width: 800px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 30px
+}
+
+.swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 480px;
+    width: 670px;
+}
+.swiper-pagination {
+    position: relative;
+}
+
+/* .owl-controls {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 44.3%;
+    top: 5%;
+}
+.owl-page {
+    width: 15px;
+    height: 15px;
+    background-color: #dedede;
+    border-radius: 50%;
+    margin-left: 15px; 
+}*/
+
+
+/* @media only screen and (max-width: 4000px) {
+    .search_input {
+        max-width: 100%;
+    }
+    .tmh-element {
+        margin-left: 2em;
+    }
+    .top_menu_header {
+        padding: 0 20px 0 20px;
+    }
+    video {
+        zoom: 400%;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .search_input {
+        max-width: 80%;
+    }
+    .tmh-element {
+        margin-left: 1em;
+    }
+    .top_menu_header {
+        padding: 0 10px 0 10px;
+    }
+    video {
+        zoom: 200%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .content {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .top_menu_header {
+        zoom: 120%;
+        padding: 0 10px 0 10px;
+    }
+
+    .search_input {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .container {
+        max-width: 70%;
+    }
+
+    .top_menu_header {
+        width: 100%;
+        max-height: 70px;
+
+    }
+
+    .search_input {
+        width: 100%;
+        height: 70%;
+    }
+
+    .tmh-element {
+        margin-left: 10%;
+    }
+
+
+} */
